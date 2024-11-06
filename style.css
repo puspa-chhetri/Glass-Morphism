@@ -1,0 +1,82 @@
+
+/* Body Styling for Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at 30% 30%, #6e00ff, #340057, #1a002b);
+    overflow: hidden;
+  }
+  
+  /* Glassmorphic Card */
+  .glass-card {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading */
+  .glass-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar */
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(172, 167, 167, 0.938);
+    color: #fff;
+  }
+  
+  /* Info Cards */
+  .info-card {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .info-card h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .info-card p {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  /* Audio Icon */
+  .audio-icon {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  
+  /* Start Button */
+  .start-button {
+    background: linear-gradient(135deg, #ff00c7, #6200ff);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .start-button:hover {
+    background: linear-gradient(135deg, #ff00c7, #a500ff);
+  }
+  
